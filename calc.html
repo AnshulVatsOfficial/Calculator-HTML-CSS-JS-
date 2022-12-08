@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <script src="calc.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="left_div">
+            <p id="text1">I'm a</p>
+            <p id="text2">Calculator</p>
+            <button id="show_calc" onclick="showCalculator()">Start your calculation</button>
+        </div>
+
+        <div class="right_div" id="my_right_div">
+            <div class="frame">
+                <div class="display">
+                    <input type="text" class="my_display" id="calc_screen" min="0" max="12" readonly/>
+                </div>
+                
+                <div class="grid">
+                    <button class="functions number" id="clear_all">AC</button>
+                    <button class="functions number" id="delete">DEL</button>
+                    <button class="functions number" id="mod">OFF</button>
+                    <button class="functions number" id="divide">/</button>
+    
+                    <button class="number" id="seven">7</button>
+                    <button class="number" id="eight">8</button>
+                    <button class="number" id="nine">9</button>
+                    <button class="functions number" id="multiply">*</button>
+    
+                    <button class="number" id="four">4</button>
+                    <button class="number" id="five">5</button>
+                    <button class="number" id="six">6</button>
+                    <button class="functions number" id="minus">-</button>
+    
+                    <button class="number" id="one">1</button>
+                    <button class="number" id="two">2</button>
+                    <button class="number" id="three">3</button>
+                    <button class="functions number" id="plus">+</button>
+    
+                    <button class="functions number" id="m_plus">M+</button>
+                    <button class="number" id="zero">0</button>
+                    <button class="number" id="dot">.</button>
+                    <button class="functions number" id="equal_to">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
